@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+:root {
+    --black: #141414;
+    --dark-gray: #1f1f1f;
+    --white: #FFF;
+}
+
+body {
+    background-color: var(--black);
+    border: 1px solid red;
+
+    height: 100vh;
+}
+
+div {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    width: 384px;
+
+}
